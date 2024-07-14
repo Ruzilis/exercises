@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+}
+
+*::-webkit-input-placeholder {
+  color: #c0c0c0;
+  opacity: 1;
+}
+
+*:-moz-placeholder {
+  color: #c0c0c0;
+  opacity: 1;
+}
+
+*::-moz-placeholder {
+  color: #c0c0c0;
+  opacity: 1;
+}
+
+body {
+  width: 100%;
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+}
+
+.login-title {
+  color: #000;
+  margin: 30px 0 5px 0;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+container {
+  position: relative;
+  display: grid;
+  left: 30%;
+  background: #fff;
+  width: 400px;
+  margin: 5px;
+  padding: 10px 0px;
+  text-align: center;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 1px 1px 0 rgba(0, 0, 0, 0);
+}
+
+.input_user {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: auto;
+}
+
+.input_user p {
+  margin: 5.7px;
+}
+
+input[type="text"] {
+  font-size: 12px;
+  width: 290px;
+  margin: 10px 0 0;
+  padding: 5px;
+  height: 25px;
+  border: 1px solid #ccc;
+}
+
+input[type="password"] {
+  font-size: 12px;
+  width: 290px;
+  margin: 5px 0 0;
+  padding: 5px;
+  height: 25px;
+  border: 1px solid #ccc;
+}
+
+::placeholder {
+  color: rgb(164, 162, 162);
+}
+
+input[type="submit"] {
+  width: 290px;
+  height: 30px;
+  margin: 0px 0px 30px;
+  background-color: #bc8e5c;
+  color: #ffffff;
+  border: #bc8e5c;
+}
+
+input[type="checkbox"] {
+  margin: 0px 5px 0px;
+}
+
+.remember_checkbox {
+  position: relative;
+  left: 80px;
+  font-size: 12px;
+  font-style: italic;
+}
